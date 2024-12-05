@@ -1,0 +1,54 @@
+/*<p>元素 
+p 
+{
+    color: blueviolet;
+    /*width: 500px;*/ /*宽度*/
+    /*border: 1px solid black;*/ /*线*/
+    /*padding（内边距）：是指内容周围的空间。在下面的例子中，它是段落文本周围的空间。
+    border（边框）：是紧接着内边距的实线。
+    margin（外边距）：是围绕元素边框外侧的空间。
+    width：元素的宽度。
+    background-color：元素内容和内边距底下的颜色。
+    color：元素内容（通常是文本）的颜色。
+    text-shadow：为元素内的文本设置阴影。
+    display：设置元素的显示模式（继续阅读文章以了解更多细节）。
+/*}*/
+
+
+html {
+    font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    background-color: whitesmoke;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+
+  
+  p,
+  li {
+    font-size: 10px;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding : 1px;
+    margin : 1px;
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
